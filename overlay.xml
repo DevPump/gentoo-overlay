@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layman>
-<overlay name="DevPump" quality="experimental" status="unofficial"
+<overlay name="devpump-gor" quality="experimental" status="unofficial"
 type="git" src="https://github.com/DevPump/gentoo-overlay.git">
 <link>https://github.com/DevPump/gentoo-overlay.git</link>
 <description> DevPump Gentoo Overlay </description>
