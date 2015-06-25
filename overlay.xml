@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<layman>
-<overlay name="devpump-gor" quality="experimental" status="unofficial"
-type="git" src="https://github.com/DevPump/gentoo-overlay.git">
-<link>https://github.com/DevPump/gentoo-overlay.git</link>
-<description> DevPump Gentoo Overlay </description>
-</overlay>
-</layman>
+<repositories version="1.0">
+	<repo priority="50" quality="experimental" status="unofficial">
+		<name>devpump-gor</name>
+		<description>DevPump's Gentoo Overlay Repo</description>
+		<homepage>https://github.com/DevPump/gentoo-overlay/</homepage>
+		<owner>
+			<email>devpump@gmail.com</email>
+		</owner>
+		<source type="git">https://github.com/DevPump/gentoo-overlay.git</source>
+	</repo>
+</repositories>
