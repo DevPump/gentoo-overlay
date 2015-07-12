@@ -51,6 +51,8 @@ src_install() {
 
 	# Install the systemd unit file
 	systemd_newunit "${FILESDIR}/${PN}_.service" "${PN}@.service"
+	#Install the systemd user unit file
+	systemd_douserunit "${FILESDIR}/${PN}.service"
 }
 
 pkg_postinst() {
