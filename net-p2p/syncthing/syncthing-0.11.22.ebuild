@@ -70,7 +70,7 @@ pkg_postinst() {
 	fi
 
 	elog "In order to be able to view the Web UI remotely (from another machine),"
-	elog "edit your ${config} and change the 127.0.0.1:8080 to 0.0.0.0:8080 in"
+	elog "edit your ${config} and change the 127.0.0.1:8384 to 0.0.0.0:8384 in"
 	elog "the 'address' section."
 	elog ""
 	elog "After checking your config, run 'rc-config start ${PN}' to start the application."
