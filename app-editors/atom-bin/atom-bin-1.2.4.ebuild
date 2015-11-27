@@ -80,3 +80,8 @@ src_install() {
 		"GNOME;GTK;Utility;TextEditor;Development;" \
 		"GenericName=Text Editor\nMimeType=text/plain;\nStartupNotify=true\nStartupWMClass=Atom"
 }
+
+pkg_postinst(){
+	elog "To use atom with PAX run the following command:"
+	elog "paxctl-ng -m /usr/share/${MY_PN}/${MY_PN}"
+}
